@@ -36,7 +36,7 @@ const letterPositions = function(sentence) {
   const results = {};
 
   for (let i = 0; i < sentence.length; i++) {
-    if (sentence[i] !== 0) {
+    if (sentence[i] !== " ") {
       if (results[sentence[i]]) {
         results[sentence[i]].push(i);
       } else {
@@ -49,5 +49,5 @@ const letterPositions = function(sentence) {
 
 //TEST CODE
 
-assertArraysEqual(letterPositions("hello").e, [1]);
+assertArraysEqual(letterPositions("hello lighthouse").e, [1, 15]);
 assertArraysEqual(letterPositions("hello").l, [2, 3]);
