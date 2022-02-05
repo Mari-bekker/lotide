@@ -12,7 +12,7 @@ const assertEqual = function(actual, expected) {
 //function to return the first item in a given array.
 const head = function(arr) {
   return arr[0];
-}
+};
 
 //TEST CODE
 assertEqual(head([5,6,7]), 5);

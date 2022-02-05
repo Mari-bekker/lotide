@@ -9,7 +9,7 @@ const assertEqual = function(actual, expected) {
 
 };
 
-const findKeyByValue = function (object, value) {
+const findKeyByValue = function(object, value) {
   //iterate the object and return the first key that contains the given value.
   //if it can't find a key with the value, should return undefined.
   for (const item in object) {
