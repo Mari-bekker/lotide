@@ -42,6 +42,8 @@ const assertArraysEqual = function(arr1, arr2) {
   }
 };
 
+module.exports = map;
+
 //TEST CODE
 
 const words = ["ground", "control", "to", "major", "tom"];

@@ -46,6 +46,8 @@ const without = function(source, itemsToRemove) {
 const words = ["hello", "world", "lighthouse"];
 without(words, ["lighthouse"]);
 
+module.exports = without;
+
 // TEST CODE
 
 console.log(without([1, 2, 3], [1])); // => [2, 3]
