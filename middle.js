@@ -1,3 +1,4 @@
+//Take in an array and return the middle-most element(s) of the given array.
 const middle = function(array) {
   let middleArray = [];
   let starter = Math.floor(array.length / 2);
