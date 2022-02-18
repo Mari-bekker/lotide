@@ -1,6 +1,6 @@
 const eqObjects = require('./eqObjects');
 
-
+//Takes in 2 objects and compares if the contents are teh same.
 const assertObjectsEqual = function(actual, expected) {
   const inspect = require('util').inspect;
   let compare = eqObjects(actual, expected);
